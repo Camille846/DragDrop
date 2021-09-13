@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 :root{
     /* Colors */
     --bg-color:#5354b0;
+    --hover-color:#3c3d9e;
     --text-color: #fff;
 
     /* Font family */
     --font-family: 'Poppins', sans-serif;
 
     /* Font weight */
-    --bold: 700;
-    --semi-bold:600;
     --regular: 400;
     --medium: 500;
 
@@ -27,8 +26,50 @@
     font-family: var(--font-family);
 }
 
-button{
+body{
+    background-color: var(--bg-color);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #fff;
+    row-gap: 10px;
+}
+
+.cloud__icon{
+    font-size: var(--icon-size);
+}
+
+.title{
+    font-size: var(--title-size);
+    font-weight: var(--medium);
+}
+
+span{
+    font-size: var(--text-size);
+    font-weight: var(--medium);
+    margin: 10px 0 15px 0;
+}
+
+.btn{
     border: none;
     outline: none;
     cursor: pointer;
+    font-size: var(--button-size);
+    font-weight: var(--medium);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color:var(--bg-color);
 }
+
+
