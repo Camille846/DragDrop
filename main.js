@@ -15,12 +15,14 @@ dropArea.addEventListener("dragover", (event)=>{
     event.preventDefault()
     // console.log('file is over dropArea')
     dropArea.classList.add('active')
+    title.textContent = "Release to upload file"
 })
 
 // If the user leaves the file from dropArea
 dropArea.addEventListener("dragleave", ()=>{
     // console.log('file is out of dropArea')
     dropArea.classList.remove('active')
+    title.textContent = "Drag & Drop to upload file"
 })
 
 // if the user drop the file on dropArea
