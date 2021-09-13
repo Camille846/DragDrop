@@ -20,7 +20,7 @@ This is a mini Javascript Project that consists in creating an interface that al
 ## Overview
 
 ### The project
-- There is a drop area container with some text, icon, and browse file button. When you drag any image file over the drag area, the border of the container also changed to solid, and the text “Drag & Drop to upload file” also changed to “Release to upload file”.
+- There is a drop area container with text, icon, and browse file button. When you drag any image file over the drag area, the border of the container changes to solid, and the text “Drag & Drop to upload file” also changes to “Release to upload file”.
 
 ## My process 
 
