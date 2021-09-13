@@ -1,5 +1,4 @@
 ﻿# ☁️ Drag & Drop or Browse – File upload Feature ☁️
-> status: Developing ⚠️
 
 This is a mini Javascript Project that consists in creating an interface that allows the user to upload the file by drag & drop.
 
