@@ -33,9 +33,14 @@ dropArea.addEventListener("drop", (event)=>{
     
     if(validExtensions.includes(fileType)){
         let fileReader = new FileReader()
+
         fileReader.onload = ()=>{
             let fileURL = fileReader.result
+            let imgTag = '<img src = "'+ fileURL +'" ' + 'alt = "image">'
+            dropArea.innerHTML = imgTag
         }
+
+        fileReader.readAsDataURL(file)
     } else{
         alert("This is not an Image File!")
     }
