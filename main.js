@@ -10,15 +10,22 @@ btn.onclick = ()=>{
     input.click();
 }
 
-// If the user drag the file over dragArea
-dropArea.addEventListener("dragover", ()=>{
-    // console.log('file is over dragArea')
+// If the user drag the file over dropArea
+dropArea.addEventListener("dragover", (event)=>{
+    event.preventDefault()
+    // console.log('file is over dropArea')
     dropArea.classList.add('active')
 })
 
-// If the user leaves the file from dragArea
+// If the user leaves the file from dropArea
 dropArea.addEventListener("dragleave", ()=>{
-    // console.log('file is out of dragArea')
+    // console.log('file is out of dropArea')
     dropArea.classList.remove('active')
 })
 
+// if the user drop the file on dropArea
+dropArea.addEventListener("drop", (event)=>{
+    event.preventDefault()
+    // console.log('file is out of dropArea')
+    dropArea.classList.add('active')
+})
