@@ -10,10 +10,11 @@ btn.onclick = ()=>{
     input.click();
 }
 
-input.addEventListener("change", ()=>{
+input.addEventListener("change", function(){
     // Getting user select file and selecting only the first one in case the user drops multiple files
     file = this.files[0]
     showFile()
+    dropArea.classList.add('active')
 })
 
 // If the user drag the file over dropArea
