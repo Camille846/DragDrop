@@ -36,4 +36,4 @@ This is a mini Javascript Project that consists in creating an interface that al
 - [W3Schools - preventDefault](https://www.w3schools.com/jsref/event_preventdefault.asp) - This is a good article to understand the definition and usage of preventDefault() Event Method
 
 ### Link
-- Access Project: [Drag & Drop Upload File](https://your-live-site-url.com)
+- Access Project: [Drag & Drop Upload File](https://camille846.github.io/DragDrop/)
