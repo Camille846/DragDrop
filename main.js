@@ -26,6 +26,9 @@ dropArea.addEventListener("dragleave", ()=>{
 // if the user drop the file on dropArea
 dropArea.addEventListener("drop", (event)=>{
     event.preventDefault()
-    // console.log('file is out of dropArea')
-    dropArea.classList.add('active')
+    // Getting user select file and selecting only the first one in case the user drops multiple files
+    file = event.dataTransfer.files[0]
+    let fileType = file.type
+    let validExtensions = ["image/jpeg", "image/jpg", "image/png"]
+    console.log(fileType)
 })
