@@ -30,5 +30,13 @@ dropArea.addEventListener("drop", (event)=>{
     file = event.dataTransfer.files[0]
     let fileType = file.type
     let validExtensions = ["image/jpeg", "image/jpg", "image/png"]
-    console.log(fileType)
+    
+    if(validExtensions.includes(fileType)){
+        let fileReader = new FileReader()
+        fileReader.onload = ()=>{
+            let fileURL = fileReader.result
+        }
+    } else{
+        alert("This is not an Image File!")
+    }
 })
