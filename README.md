@@ -29,7 +29,7 @@ This is a mini Javascript Project that consists in creating an interface that al
 - Javascript
 
 ### Useful Resources
-- [Coding Nepal](https://www.codingnepalweb.com/drag-drop-file-upload-feature-javascript/) - This was my inspiration for the project. It guided me to accomplish the result I was expecting.
+- [Coding Nepal](https://youtu.be/pvqOaGDm1wU) - This was my inspiration to start the project. It guided me to accomplish the result I was expecting.
 - [MDN - Dragover event](https://developer.mozilla.org/en-US/docs/Web/API/Document/dragover_event) - This helped me using the dragover event
 - [MDN - Dragleave event](https://developer.mozilla.org/en-US/docs/Web/API/Document/dragleave_event) - This helped me using the dragleave event
 - [MDN - Drop event](https://developer.mozilla.org/en-US/docs/Web/API/Document/drop_event) - This helped me using the drop event
