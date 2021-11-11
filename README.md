@@ -26,7 +26,8 @@ This is a mini Javascript Project that consists in creating an interface that al
 ### Built With
 - Semantic HTML5 markup
 - CSS custom properties
-- Javascript
+- Javascript Click Events
+- FileReader Object
 
 ### Useful Resources
 - [Coding Nepal](https://youtu.be/pvqOaGDm1wU) - This was my inspiration to start the project. It guided me to accomplish the result I was expecting.
